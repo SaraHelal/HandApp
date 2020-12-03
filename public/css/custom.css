@@ -1,0 +1,42 @@
+/* Daily Follow Up */
+
+/* Start Team Follow Up Section */
+
+table th{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.teamFollow{
+    font-size: 15px;
+}
+.teamFollow .card-footer .btn{
+    color:#FFF;
+}
+
+
+
+.bg-olive-n.btn:not(:disabled):not(.disabled):active,
+.bg-olive-n.btn:not(:disabled):not(.disabled).active,
+.bg-olive-n.btn:active, .bg-olive-n.btn.active
+{
+    background-color: #28a745 !important;
+    color: #ffffff;
+    border-radius: 0;
+    margin: 0;
+}
+
+.bg-olive-d.btn:not(:disabled):not(.disabled):active,
+.bg-olive-d.btn:not(:disabled):not(.disabled).active,
+.bg-olive-d.btn:active, .bg-olive-d.btn.active
+{
+    background-color: #db3545 !important;
+    color: #ffffff;
+    border-radius: 0;
+    margin: 0;
+}
+
+
+
+
+/* End Team Follow Up Section */

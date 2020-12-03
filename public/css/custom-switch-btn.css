@@ -1,0 +1,50 @@
+
+
+.bg-olive-n.btn:not(:disabled):not(.disabled):active,
+.bg-olive-n.btn:not(:disabled):not(.disabled).active,
+.bg-olive-n.btn:active, .bg-olive-n.btn.active
+{
+    background-color: #9c9c9c !important;
+    color: #ffffff;
+    border-radius: 0;
+    margin: 0;
+}
+
+.bg-olive-d.btn:not(:disabled):not(.disabled):active,
+.bg-olive-d.btn:not(:disabled):not(.disabled).active,
+.bg-olive-d.btn:active, .bg-olive-d.btn.active
+{
+    background-color: #db3545 !important;
+    color: #ffffff;
+    border-radius: 0;
+    margin: 0;
+}
+
+
+.switch-btn-toggle{
+    border: 1px solid #000;
+    padding: 0px;
+    margin: 1px;
+    margin-left: 29%;
+    margin-top: 16px;
+}
+.custom-switch.custom-switch-on-success .custom-control-input:checked ~ .custom-control-label::before{
+    background: #db3545;
+    border-color: #db3545;
+}
+.custom-switch.custom-switch-on-success .custom-control-input:checked ~ .custom-control-label::after {
+    background: #ffffff;
+}
+
+.custom-switch.custom-switch-off-danger .custom-control-input ~ .custom-control-label::before{
+    background: #919191;
+    border-color: #9c9c9c;
+}
+.custom-switch.custom-switch-off-danger .custom-control-input ~ .custom-control-label::after {
+    background: #ffffff;
+}
+
+.custom-switch {
+    text-align: center;
+}
+
